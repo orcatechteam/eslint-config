@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-  - "node"
-
+- node
 deploy:
   provider: npm
-  email: "rileyt@ohsu.edu"
+  email: rileyt@ohsu.edu
   skip_cleanup: true
   on:
     tags: true
     branch: master
+  api_key:
+    secure: LZAjHC3l010vvcUVFpqnWfz/dgOhTaoD5JnHphw0QNDOUEIuDNEJ8O/yjXouFPdKP7rIxXEVYNkWrd63Nre7/1grclEJ0QZD1Bf8VtaLu3u1zFHib5qfqyaFIhnDYop57l9HVIphTfnKqh1D1nmZE/F1JGmPOoqzv8su7cyIHLGt2+gHFHU4YRTt3VrTMXfI/R3eTDIJ4oI55gMCfH2HV5EHntyGATE43o4ArGQGmQspzULXjb44Sh6QlFMkBlzapJLN5VGy9cmDod7JMdff0skHHlE98VQGggA4XqCNBZJELMdT3BydwWgmLLlb4N4OHbfrdm28kH4XThSEppfKJWmKSQ9P+LDpegeFUAC/DvdCm2FuooS9my/toA96SWVc1h2EjUSOvX+fmVXSjHIIMPXXgi7vvsTQqx99fru5bjQqghSNYwOb8QkePKndZcU/sVCcqXTg27jZVXJj3iRDkK2v4zem6FQxRmpzPYS6clQNaEyzaqFi7YDyWNlDi7dj/RqP4iNl2RhHJ49gbqBaBXo01dbiMx/D1YT/ofIf0HtqVy/tOXehCH0HgTV/s6ozH6imXMtlIctnWItReK1pkgjIFhUQcF6a5MiclTB8BlFVMgwB+f96azIRxulq7spVQsuXvAh+4vFcCcjwq8IjhOginb6hvERei3p9WLt7p8M=
