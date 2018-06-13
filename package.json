@@ -1,0 +1,37 @@
+{
+  "author": "Jonathan Lee",
+  "license": "MIT",
+  "name": "@orcatech/eslint-config",
+  "version": "1.0.2",
+  "description": "ORCATECH's JS ESLint config",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:orcatechteam/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/orcatechteam/eslint-config/issues"
+  },
+  "homepage": "http://github.com/orcatechteam/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "orcatech",
+    "javascript"
+  ],
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 4",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jsx-a11y": ">= 6",
+    "eslint-plugin-react": ">= 7"
+  }
+}
