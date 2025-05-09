@@ -1,21 +1,12 @@
 module.exports = {
-	extends: ["./rules/jsx-a11y", "./rules/react"].map(require.resolve),
-	plugins: ["jsx-a11y", "react"],
+	extends: ["./rules/jsx-a11y", "./rules/react","./rules/typescript"].map(require.resolve),
+	plugins: ["jsx-a11y", "react", "@typescript-eslint"],
 	env: {
 		browser: true,
 		commonjs: true,
 		es6: true,
 		jest: true,
 		node: true
-	},
-	parserOptions: {
-		ecmaVersion: 6,
-		sourceType: "module",
-		ecmaFeatures: {
-			jsx: true,
-			generators: true,
-			experimentalObjectRestSpread: true
-		}
 	},
 	rules: {
 		// http://eslint.org/docs/rules/

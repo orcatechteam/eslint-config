@@ -29,9 +29,11 @@
     "rules"
   ],
   "peerDependencies": {
-    "eslint": ">= 4",
+    "eslint": ">= 9",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-jsx-a11y": ">= 6",
-    "eslint-plugin-react": ">= 7"
+    "eslint-plugin-react": ">= 7",
+    "@typescript-eslint/parser": ">= 8",
+    "@typescript-eslint/eslint-plugin": ">= 8"
   }
 }

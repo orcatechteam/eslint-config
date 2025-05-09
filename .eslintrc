@@ -1,13 +1,16 @@
 {
-	extends: "orcatech",
-	root: true,
-	parser: "babel-eslint",
-	settings: {
-		"import/ignore": ["node_modules", "\\.(json|css|jpg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm)$"],
-		"import/extensions": [".js"],
+	"extends": "@orcatech/eslint-config",
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"settings": {
+		"import/ignore": ["node_modules","build", "artifacts","static", "\\.(json|css|jpg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm)$"],
+		"import/extensions": [".ts", ".tsx"],
 		"import/resolver": {
-			node: {
-				extensions: [".js", ".json"]
+			"typescript": {
+				"project": "tsconfig.json"
+			},
+			"node": {
+				"extensions": [".ts",".tsx",".js",".json"]
 			}
 		}
 	}
