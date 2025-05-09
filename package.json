@@ -2,7 +2,7 @@
   "author": "Jonathan Lee",
   "license": "MIT",
   "name": "@orcatech/eslint-config",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ORCATECH's JS ESLint config",
   "main": "index.js",
   "scripts": {},
